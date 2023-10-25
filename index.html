@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio || Kuntoro</title>
+  </head>
+  <body id="home">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#About">About</a>
+            <a class="nav-link" href="#projects">Project</a>
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end Navbar -->
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/kuntoro.jpg" alt="Foto Kuntoro" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Kuntoro</h1>
+      <p class="lead">Saya adalah seorang pekerja di PT. Tigaka Distrindo Perkasa sebagai seorang Logistics</p>
+    </section>
+    <!-- End Jumbotron -->
+    <!-- About -->
+    <section id="About">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <h3>About Me</h3>
+        </div>
+        <div class="row row justify-content-center fs-5">
+          <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ad blanditiis, natus autem dolorem illum? Voluptas omnis voluptate accusantium quia?</p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nisi autem perferendis ad, eligendi culpa saepe! Vitae laborum libero ratione, dolore dolor saepe obcaecati nostrum, ab
+              quia quae est neque!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Endabout -->
+    <!-- Card -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h3>My Projects</h3>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-4 mb-5">
+            <div class="card">
+              <img src="img/1.JPG" class="card-img-top" alt="ERP System" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card">
+              <img src="img/2.JPG" class="card-img-top" alt="POS System" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card">
+              <img src="img/3.jpg" class="card-img-top" alt="inventory System" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Endcard -->
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col mb-3">
+            <h3>Contact Me</h3>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-5">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="name" />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="email" />
+                </div>
+                <div class="mb-3">
+                  <label for="pesan" class="form-label">Pesan</label>
+                  <textarea class="form-control" id="pesan" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Contact -->
+    <!-- Footer -->
+    <footer class="text-center mb-5" style="background-color: #12ace9ce">
+      <p">Created With <i class="bi bi-heart-fill text-danger"></i> By <a class="fw-bold" href="###">Kuntoro</a></p>
+    </footer>
+    <!-- End Footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
