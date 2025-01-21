@@ -5,3 +5,14 @@
 section {
   padding-top: 5rem;
 }
+h1 {
+  background-color: aqua;
+  border: 2px solid black;
+}
+
+span {
+  background-color: goldenrod;
+  border: 2px solid black;
+  margin: 50px;
+  padding: 10px;
+}
