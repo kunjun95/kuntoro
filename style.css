@@ -3,16 +3,25 @@
   background-color: #7d9097ce;
 }
 section {
-  padding-top: 5rem;
-}
-h1 {
-  background-color: aqua;
-  border: 2px solid black;
+  /* padding-top: 5rem; */
 }
 
-span {
-  background-color: goldenrod;
-  border: 2px solid black;
-  margin: 50px;
-  padding: 10px;
+h1 {
+  text-align: center;
+}
+
+#container {
+  background-color: rgb(32, 209, 194);
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#container div {
+  width: 200px;
+  height: 200px;
 }
